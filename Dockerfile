@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY requirements.txt .
 RUN pip install -r requirements.txt
-# Uncomment the line below to test BUILD FAI
+# Uncomment the line below to test BUILD FA
 RUN exit 1
 
 COPY . .
